@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* General styles */
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #212529; /* Darker gray text for better contrast */
+}
+
+/* Navigation menu */
+.navbar {
+  background-color: #0056b3; /* Darker blue for better contrast */
+}
+.navbar .navbar-brand {
+  color: #ffffff; /* White text */
+  font-weight: bold;
+}
+.navbar .nav-link {
+  color: #ffffff; /* White links */
+}
+.navbar .nav-link:hover {
+  color: #ffc107; /* Yellow on hover */
+}
+
+/* Add focus styles for accessibility */
+.nav-link:focus, .btn:focus {
+  outline: 2px dashed #ffc107; /* Yellow focus outline */
+  outline-offset: 2px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff; /* Blue headings */
+}
+
+/* Tables */
+.table {
+  background-color: #ffffff; /* White table background */
+  border: 1px solid #dee2e6; /* Light gray border */
+}
+.table th {
+  background-color: #0056b3; /* Darker blue header */
+  color: #ffffff; /* White text */
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Light gray for striped rows */
+}
+
+/* Buttons */
+.btn {
+  background-color: #0056b3; /* Darker blue button */
+  color: #ffffff; /* White text */
+  border: none;
+}
+.btn:hover {
+  background-color: #003d80; /* Even darker blue on hover */
+}
+
+/* Links */
+a {
+  color: #007bff; /* Blue links */
+  text-decoration: none;
+}
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+/* Logo */
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Favicon */
+.favicon {
+  display: none; /* Favicon is handled in public/manifest.json */
+}
